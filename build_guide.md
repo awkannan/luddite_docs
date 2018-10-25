@@ -65,7 +65,45 @@ The 100k ohm resistor is colored brown, black, yellow.
 
 <img src="./static/build_guide/led_resistors.jpg" width="768px" />
 
+Find the spots on the board where these resistors should go. They are labeled:
 
+<img src="./static/build_guide/resistor_100_100k_spots.jpg" width="768px" />
 
+Put the resistors through their respective holes. Bend the leads before installing the resistors:
+
+<img src="./static/build_guide/resistors_100_through_hole.jpg" width="768px" />
+
+On the underside of the board, solder the resistors to their pads:
+<img src="./static/build_guide/resistors_100_soldered.jpg" width="768px" />
+
+Finally, flush cut the resistors close to the board:
+<img src="./static/build_guide/resistors_installed.jpg" width="768px" />
+
+You'll be repeating this process many times throughout this build.
+
+### Diodes (Required)
+
+The next thing we're going to do is install all 61 diodes.
+Your diodes come in a long strip. I like installing them in groups of 6, but you can find what works for you.
+
+First, bend the legs of the diodes to make them easier to insert. I bend them around my finger. 
+<img src="./static/build_guide/bend_diodes.jpg" width="768px" />
+
+Next, insert the diodes into the spots marked with the letter "D" on the PCB. Make sure the black band on the diode aligns with the bands marked on the PCB.
+
+<img src="./static/build_guide/diodes_through_hole.jpg" width="768px" />
+
+For the most part, the bands point upwards, but sometimes the diodes are sideways.
+
+Bend the legs of the diodes to hold them in place so you can turn the PCB over:
+<img src="./static/build_guide/diode_leg_bent.jpg" width="768px" />
+
+<img src="./static/build_guide/diode_through_hole_2.jpg" width="768px" />
+
+Solder the legs of the diodes to the pads, and flush cut the legs off. Make sure you save your legs! We'll be using them later to socket our ProMicro.
+
+<img src="./static/build_guide/diode_row_soldered.jpg" width="768px" />
+
+<img src="./static/build_guide/diode_legs.jpg" width="768px" />
 
 
