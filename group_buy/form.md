@@ -32,6 +32,7 @@ This group buy is being operated in a non commercial fashion. Extra kits will be
 ```
 
 All participants answered YES to the following question:
+
 `I have read all the disclaimers, and agree to the refund, invoicing, and shipping rules. I understand that there is an extended timeline for receiving my product(s).`
 
 This was the kit information provided:
