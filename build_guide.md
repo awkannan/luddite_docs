@@ -87,6 +87,8 @@ The next thing we're going to do is install all 61 diodes.
 Your diodes come in a long strip. I like installing them in groups of 6, but you can find what works for you.
 
 First, bend the legs of the diodes to make them easier to insert. I bend them around my finger. 
+<img src="./static/build_guide/straight_diodes.jpg" width="768px" />
+
 <img src="./static/build_guide/bend_diodes.jpg" width="768px" />
 
 Next, insert the diodes into the spots marked with the letter "D" on the PCB. Make sure the black band on the diode aligns with the bands marked on the PCB.
@@ -208,10 +210,108 @@ Now we must assemble and install our stablilzers. At this point, you should clip
 
 <img src="./static/build_guide/stab_front.jpg" width="768px" />
 
+<img src="./static/build_guide/complete_stab.jpg" width="768px" />
+
 <img src="./static/build_guide/stab_add_wire.jpg" width="768px" />
 
 If using PCB mount stabilizers, install them in your PCB. Slide the larger part of the stabilizer into the larger hole on the PCB, and press firmly on the smaller part until it clicks into the hole.
 
 <img src="./static/build_guide/stab_installed.jpg" width="768px" />
 
+<img src="./static/build_guide/pcb_stabs_installed.jpg" width="768px" />
+
 If you're using plate stabilizers, install them into your plate.
+
+### Pro Micro Socket
+
+Now, let's install our Pro Micro sockets.
+
+(TODO: Add pics/details)
+
+### Switches
+
+Finally, we can install our switches. If using a PCB mounted switch, go ahead and press all your switches into the PCB
+
+If using a plate, I like starting with the 4 corners of the plate. Your plate might be a little tight around the stabilizers, but they will fit. (Note, this picture does not show stabilizers)
+
+<img src="./static/build_guide/plate_testfit.jpg" width="768px" />
+
+Make sure when you solder your switches that both leads are poking through the PCB! If they aren't your switch won't work and you'll have to desolder to reinstall them.
+
+Here's an example of a missing pin:
+<img src="./static/build_guide/switch_pin_missing.jpg" width="768px" />
+
+
+When complete, your board should look like this:
+
+<img src="./static/build_guide/switches_installed.jpg" width="768px" />
+
+### Testing / Pro Micro Flashing
+
+At this point, our whole key matrix has been completed. Now is a good time for a test.
+
+<img src="./static/build_guide/pro_micro.jpg" width="768px" />
+
+Flash your pro micro with the Luddite QMK firmware. In order to do enter flashing mode, you'll have to short the GND and RST pins on the pro micro.
+
+(TODO: add link to QMK flashing guide)
+
+Now, using the diode pins and sockets we installed, install your Pro Micro.
+
+<img src="./static/build_guide/pro_micro_installed.jpg" width="768px" />
+
+Once installed, connect your keyboard to a PC using a USB Micro cable. I like using http://www.keyboardtester.com/ to verify that all my keys work. If they don't, or multiple keys register on a single press, check all your diode orientations and fix them if wrong.
+
+When satisfied with testing, you can remove your Pro Micro from its socket.
+
+### Pigtail
+
+Finally, we must install the USB pigtail. This will allow us to use the more convenient USB Mini connector we installed earlier.
+
+First, measure how long your pigtail needs to be, and cur your micro USB cable down to length.
+
+<img src="./static/build_guide/pigtail_cut.jpg" width="768px" />
+
+Next, using either scissors or your wirestripper, remove the outer layer of the USB cable:
+
+<img src="./static/build_guide/usb_wire_stripped.jpg" width="768px" />
+
+You will see 4 cables - a red, black, white, and green.
+
+Using wire strippers, strip the ends of the 4 cables that were revealed by stripping the outer layer.
+
+<img src="./static/build_guide/usb_wires_stripped.jpg" width="768px" />
+
+Tin each one of these now exposed mini wires:
+
+<img src="./static/build_guide/pigtail_tinned.jpg" width="768px" />
+
+Place and solder each of the mini wires to the appropriate lead on the board. Red to VCC, White to D-, Green to D+, and Black to GND.
+
+<img src="./static/build_guide/pigtail_setup.jpg" width="768px" />
+
+
+<img src="./static/build_guide/pigtail_installed.jpg" width="768px" />
+
+#### At this point if you don't want RGB underglow or LED backlighting, you're done! Congrats! Add some keycaps and enjoy!
+
+### Installing LEDS for Backlighting (Optional)
+
+For backlighting, we support single color LEDS. For this guide, I used white ones:
+
+<img src="./static/build_guide/LEDs.jpg" width="768px" />
+
+On each switch, you should see holes for LEDs:
+
+<img src="./static/build_guide/led_holes.jpg" width="768px" />
+
+We're going to put the LEDs through these holes. Each LED has a longer side (anode, positive) and a shorter side (cathode, negative). If you notice the PCB, it has square pads and circular pads. **The shorter leg of the LED should go into the hole with the square circle**.
+
+<img src="./static/build_guide/led_leads_detailed.jpg" width="768px" />
+
+Once inserted, bend the legs and follow the same general technique that you did with the diodes and resistors. At the end, your board should look like this:
+
+<img src="./static/build_guide/leds_all_installed.jpg" width="768px" />
+
+
+### Installing RGB Underglow (Optional)
