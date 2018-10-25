@@ -11,7 +11,7 @@ When setting up the group buy, we weren't sure if the plates would support PCB s
 
 The build guide is almost ready, you can see it in it's current state [here](../build_guide.md). It's missing a few things, like socketing and flashing the pro micro. I'd also like to add some extra detail to some parts of the guide. I welcome any and all feedback - if there's anything unclear or you'd like to see added, please let me know.
 
-I can be contacted on discord as Upas#2583, on reddit as /u/upas, or via email. I'm active in the mechkeys discord channel too.
+I can be contacted on discord as Upas#8523, on reddit as /u/upas, or via email. I'm active in the mechkeys discord channel too.
 
 Thank you all for joining the group buy! I plan on providing weekly updates here, even if the update is "nothing has really changed since last week", so check in whenever you can.
 
