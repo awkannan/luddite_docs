@@ -3,7 +3,7 @@
 A complete Luddite build can take anywhere from 2-6 hours. Pace yourself!
 
 At the end of the process, you'll wind up with something like this:
-<img src="./static/build_guide/sneakpeek.jpg" width=768px />
+<img src="./static/build_guide/sneakpeek.jpg" width="768px" />
 
 Before we begin, let's take inventory and make sure we have all the parts necessary.
 
@@ -33,6 +33,7 @@ There are required part and optional parts. Some of the optional parts are requi
 - ESD Suppression Diode (For ESD Protection)
 
 <img src="./static/build_guide/inventory.jpg" width="768px" />
+<img src="./static/build_guide/small_parts.jpg" width="768px" />
 
 
 ## Tools
@@ -51,6 +52,20 @@ If you're not sure what to get, I highly recommend the [Keeb.io recommended sold
 
 
 ## The Process
-1. Decide if you want to support RGB Underglow and LED Backlighting. This will change what you have to do during the build process.
+  
+Decide if you want to support RGB Underglow and LED Backlighting. This will change what you have to do during the build process.
 
-1. (Optional, LED Backlighting) If I'm supporting LED backlighting, I like to start off with the 100 ohm and 100k ohm resistors. This is so I won't make a mistake later. The colors on the resistors should match the ones shown 
+### First Resistors for LED Backlighting (Optional, LED Backlighting) 
+
+If I'm supporting LED backlighting, I like to start off with the 100 ohm and 100k ohm resistors. This is so I won't make a mistake later. 
+
+The colors on the resistors should match the ones shown.  
+The 100 ohm resistor is colored brown, black, brown.  
+The 100k ohm resistor is colored brown, black, yellow.  
+
+<img src="./static/build_guide/led_resistors.jpg" width="768px" />
+
+
+
+
+
