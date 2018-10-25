@@ -293,7 +293,6 @@ Place and solder each of the mini wires to the appropriate lead on the board. Re
 
 <img src="./static/build_guide/pigtail_installed.jpg" width="768px" />
 
-#### At this point if you don't want RGB underglow or LED backlighting, you're done! Congrats! Add some keycaps and enjoy!
 
 ### Installing LEDS for Backlighting (Optional)
 
@@ -315,3 +314,31 @@ Once inserted, bend the legs and follow the same general technique that you did 
 
 
 ### Installing RGB Underglow (Optional)
+
+To install RGB underglow, we must first attach the LED strip to the bottom of our PCB. Typically, they have a sticky 3M compound on them, so they'll stick. If weak, you can use electrical tape to help.
+
+Make sure the DIN is close to the DATA contact on the PCB.
+
+<img src="./static/build_guide/rgb_strip_applied.jpg" width="768px" />
+
+Next, add some solder to each of the pads on the LED strip:
+
+<img src="./static/build_guide/solder_on_underglow_pads.jpg" width="768px" />
+
+Using some solid core wire, connect +5V on the strip to the VCC pad
+
+<img src="./static/build_guide/underglow_vcc.jpg" width="768px" />
+
+Repeat the process connecting DIN to the DATA pad and GND to GND.
+
+<img src="./static/build_guide/rgb_leads_installed.jpg" width="768px" />
+
+### Wrap it Up
+
+Finally, use your remaining PCB to finish the PCB sandwich. Add rubber bumpons to the bottom of the bottom PCB.
+
+<img src="./static/build_guide/bumpons.jpg" width="768px" />
+
+Enjoy your Luddite board!
+
+<img src="./static/build_guide/backlight.jpg" width="768px" />
