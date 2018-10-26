@@ -14,4 +14,6 @@ We ran a non-commercial, profit-free group buy for the Luddite. It was open from
 ### Links
 [Build Guide](build_guide.md)
 
+[Case Compatibility](case_compat.md)
+
 [Bill of Materials](bom.md)
