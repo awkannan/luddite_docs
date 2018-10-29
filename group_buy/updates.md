@@ -1,5 +1,16 @@
 # Updates for the Luddite Group Buy
 
+## October 29, 2018
+Our PCBs and plates have shipped, along with electronic components! This was way faster than I expected - these should all be delivered in the next couple weeks.
+
+I have good news on the plate stabilizer front as well - I was able to order some plate stabilizers and they should be arriving this week. We'll have enough to fulfill all the ordered plates, though I'm not sure there will be many extra. This means the ship date is definitely moving up from Late January. The items that will take the longest to arrive now are the Pro Micros and M2 hardware.
+
+After putting together the build guide, the 6 standard Mounting holes have proven pretty solid for the sandwich keyboard. While there are 16 holes on the outside edge of the PCB, we'll be including 8-10 M2 standoffs and double that amount of screws in the base kit. Given how solid the 6 mounting holes are, 10 (which is 4 extra) should be more than enough. The 6 standard mounting holes are also accessible when the plate is used. That's not the case for any of the other holes, so if you ever think you might want to put your Luddite in a case, I highly recommend using only the 6 standard mounting holes for sandwiching your PCBs.
+
+Speaking of cases, I also tested compatibility in a cheap plastic case. I've started a document to track case compatibility [here](../case_compat.dm). Feel free to submit a pull request to add any of your findings! There is also a google sheet [here](https://docs.google.com/spreadsheets/d/1vfqxFTUa8v4VEHw5i9PEsweAgG-jUHJPKpPGdXEKyr4/edit#gid=0). If you add the information there, I'll move it over to the document on this site.
+
+Thanks! You can expect the next update on November 5th, if nothing changes before then.
+
 ## October 25, 2018
 Everyone who joined the group buy and paid is now a full participant!
 
