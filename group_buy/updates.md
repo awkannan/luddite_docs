@@ -7,7 +7,7 @@ I have good news on the plate stabilizer front as well - I was able to order som
 
 After putting together the build guide, the 6 standard Mounting holes have proven pretty solid for the sandwich keyboard. While there are 16 holes on the outside edge of the PCB, we'll be including 8-10 M2 standoffs and double that amount of screws in the base kit. Given how solid the 6 mounting holes are, 10 (which is 4 extra) should be more than enough. The 6 standard mounting holes are also accessible when the plate is used. That's not the case for any of the other holes, so if you ever think you might want to put your Luddite in a case, I highly recommend using only the 6 standard mounting holes for sandwiching your PCBs.
 
-Speaking of cases, I also tested compatibility in a cheap plastic case. I've started a document to track case compatibility [here](../case_compat.dm). Feel free to submit a pull request to add any of your findings! There is also a google sheet [here](https://docs.google.com/spreadsheets/d/1vfqxFTUa8v4VEHw5i9PEsweAgG-jUHJPKpPGdXEKyr4/edit#gid=0). If you add the information there, I'll move it over to the document on this site.
+Speaking of cases, I also tested compatibility in a cheap plastic case. I've started a document to track case compatibility [here](../case_compat.md). Feel free to submit a pull request to add any of your findings! There is also a google sheet [here](https://docs.google.com/spreadsheets/d/1vfqxFTUa8v4VEHw5i9PEsweAgG-jUHJPKpPGdXEKyr4/edit#gid=0). If you add the information there, I'll move it over to the document on this site.
 
 Thanks! You can expect the next update on November 5th, if nothing changes before then.
 
