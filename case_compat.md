@@ -10,7 +10,7 @@ Using low profile sockets, we can probably save another 2mm, bringing us to 4mm 
 
 ## Specific Cases
 
-This section is open to contribution. If you try the Luddite in a new case, please make an entry here.
+If you try out a case, please update this google sheet [here](https://docs.google.com/spreadsheets/d/1vfqxFTUa8v4VEHw5i9PEsweAgG-jUHJPKpPGdXEKyr4/edit?usp=sharing) or submit a pull request to add an entry here. I'll try to keep this doc up to date with the google sheet, as more people fill this in.
 
 ### [Cheap Plastic Case from AliExpress](https://www.aliexpress.com/item/GH60-Compact-Keyboard-Base-Seat-60-Keyboard-Poker2-Plastic-Frame-Case/32906642473.html?spm=a2g0s.9042311.0.0.20024c4dGeDGPP)
 This case worked with some modification. Plastic fins had to be removed to make room for the pigtail. The pro micro itself did not conflict with the fins.
