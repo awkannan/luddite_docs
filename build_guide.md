@@ -246,6 +246,25 @@ When complete, your board should look like this:
 
 <img src="./static/build_guide/switches_installed.jpg" width="768px" />
 
+### Installing LEDS for Backlighting (Optional)
+
+For backlighting, we support single color LEDS. For this guide, I used white ones:
+
+<img src="./static/build_guide/LEDs.jpg" width="768px" />
+
+On each switch, you should see holes for LEDs:
+
+<img src="./static/build_guide/led_holes.jpg" width="768px" />
+
+We're going to put the LEDs through these holes. Each LED has a longer side (anode, positive) and a shorter side (cathode, negative). If you notice the PCB, it has square pads and circular pads. **The shorter leg of the LED should go into the hole with the square circle**.
+
+<img src="./static/build_guide/led_leads_detailed.jpg" width="768px" />
+
+Once inserted, bend the legs and follow the same general technique that you did with the diodes and resistors. At the end, your board should look like this:
+
+<img src="./static/build_guide/leds_all_installed.jpg" width="768px" />
+
+
 ### Testing / Pro Micro Flashing
 
 At this point, our whole key matrix has been completed. Now is a good time for a test.
@@ -254,7 +273,11 @@ At this point, our whole key matrix has been completed. Now is a good time for a
 
 Flash your pro micro with the Luddite QMK firmware. In order to do enter flashing mode, you'll have to short the GND and RST pins on the pro micro.
 
-(TODO: add link to QMK flashing guide)
+I like using the QMK Toolbox software in "Auto-flash" mode. I plug the Pro Micro into my computer, set QMK Toolbox to auto-flash mode using "avrdude", then short the GND and RST pins on the pro micro with a diode leg I bend.
+
+A compiled version of the Luddite firmware is available for download [here](https://github.com/awkannan1/luddite_docs/raw/master/static/luddite_default.hex)
+
+For more information, you can check out QMK's [flashing guide](https://beta.docs.qmk.fm/detailed-guides/flashing)
 
 Now, using the diode pins and sockets we installed, install your Pro Micro.
 
@@ -292,25 +315,6 @@ Place and solder each of the mini wires to the appropriate lead on the board. Re
 
 
 <img src="./static/build_guide/pigtail_installed.jpg" width="768px" />
-
-
-### Installing LEDS for Backlighting (Optional)
-
-For backlighting, we support single color LEDS. For this guide, I used white ones:
-
-<img src="./static/build_guide/LEDs.jpg" width="768px" />
-
-On each switch, you should see holes for LEDs:
-
-<img src="./static/build_guide/led_holes.jpg" width="768px" />
-
-We're going to put the LEDs through these holes. Each LED has a longer side (anode, positive) and a shorter side (cathode, negative). If you notice the PCB, it has square pads and circular pads. **The shorter leg of the LED should go into the hole with the square circle**.
-
-<img src="./static/build_guide/led_leads_detailed.jpg" width="768px" />
-
-Once inserted, bend the legs and follow the same general technique that you did with the diodes and resistors. At the end, your board should look like this:
-
-<img src="./static/build_guide/leds_all_installed.jpg" width="768px" />
 
 
 ### Installing RGB Underglow (Optional)
