@@ -1,5 +1,18 @@
 # Updates for the Luddite Group Buy
 
+## November 4, 2018
+Update a day early - the PCBs and electronics, as well as the stabilizers have all arrived!
+
+<img src="../static/Arrived.jpg" width="768px" />
+
+I've spent 16-20 hours this past week just getting everything into kits and working on content for the GB. Splitting bulk components into kits has been an incredibly time consuming and tedious task. But luckily it's all done now! I've also updated the build guide. It should be in a good shape now.
+
+We're just waiting on M2 hardware and Pro Micros now. Once those arrive, I'll have to kit those out, and then I can start shipping kits.
+
+If you don't need M2 hardware (i.e. you're planning on using a case), please contact me and I may be able to send out your kit early! You'd be foregoing any M2 hardware, and I can't really refund you for it either, but it is an option. I have a few Pro Micros from my personal stock which I wouldn't mind using on a first-come first-served basis, and I'll replenish any personal stock I use for these early kits with the Pro Micros that arrive with the group buy order. 
+
+Next update will be on Nov 12th.
+
 ## October 29, 2018
 Our PCBs and plates have shipped, along with electronic components! This was way faster than I expected - these should all be delivered in the next couple weeks.
 
