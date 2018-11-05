@@ -5,6 +5,8 @@ Update a day early - the PCBs and electronics, as well as the stabilizers have a
 
 <img src="../static/Arrived.jpg" width="768px" />
 
+<img src="../static/production_pcbs.jpg" width="768px" />
+
 I've spent 16-20 hours this past week just getting everything into kits and working on content for the GB. Splitting bulk components into kits has been an incredibly time consuming and tedious task. But luckily it's all done now! I've also updated the build guide. It should be in a good shape now.
 
 We're just waiting on M2 hardware and Pro Micros now. Once those arrive, I'll have to kit those out, and then I can start shipping kits.
