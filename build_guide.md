@@ -133,6 +133,30 @@ Solder all the leads on the back side of the board. Make sure all 5 pins made it
 <img src="./static/build_guide/usb_ready_to_solder.jpg" width="768px" />
 
 
+### Install Pro Micro Socket
+
+Now, let's install our Pro Micro sockets.
+
+Our low profile peel-a-way sockets have 24 spots. First we need to cut them down into 2 strips of 12.
+
+<img src="./static/build_guide/socket_full.jpg" width="768px" />
+
+<img src="./static/build_guide/socket_cut.jpg" width="768px" />
+
+Once our sockets are cut, insert the pins into the appropriate holes on the backside of the board.
+
+<img src="./static/build_guide/socket_inserted.jpg" width="768px" />
+
+Flip your PCB back around, making sure the sockets stay in their holes.
+
+<img src="./static/build_guide/socket_pins.jpg" width="768px" />
+
+Solder the pins to the board
+
+<img src="./static/build_guide/socket_pins_soldered.jpg" width="768px" />.
+
+Now our sockets are installed.
+
 ### Tactile Reset Switch (Optional)
 Now that we've had lots of practice soldering, we'll move on to some Surface Mount (SMD) parts. We'll start with the easiest - the tactile switch.
 
@@ -274,29 +298,11 @@ A compiled version of the Luddite firmware is available for download [here](http
 
 For more information, you can check out QMK's [flashing guide](https://beta.docs.qmk.fm/detailed-guides/flashing)
 
-### Pro Micro and Socket
+### Pro Micro
 
-Now, let's install our Pro Micro and sockets.
+Now that we've tested our Pro Micro, let's install it.
 
-Our low profile peel-a-way sockets have 24 spots. First we need to cut them down into 2 strips of 12.
-
-<img src="./static/build_guide/socket_full.jpg" width="768px" />
-
-<img src="./static/build_guide/socket_cut.jpg" width="768px" />
-
-Once our sockets are cut, insert the pins into the appropriate holes on the backside of the board.
-
-<img src="./static/build_guide/socket_inserted.jpg" width="768px" />
-
-Flip your PCB back around, making sure the sockets stay in their holes.
-
-<img src="./static/build_guide/socket_pins.jpg" width="768px" />
-
-Solder the pins to the board
-
-<img src="./static/build_guide/socket_pins_soldered.jpg" width="768px" />.
-
-Now our sockets are installed. Since we are using low profile sockets, we need to make sure the switches won't touch the Pro Micro.
+Since we are using low profile sockets, we need to make sure the switches won't touch the Pro Micro.
 You'll see that under the socket, the switch leads are sticking out.
 
 <img src="./static/build_guide/socket_flush_cut.jpg" width="768px" />.
