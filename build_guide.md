@@ -133,6 +133,30 @@ Solder all the leads on the back side of the board. Make sure all 5 pins made it
 <img src="./static/build_guide/usb_ready_to_solder.jpg" width="768px" />
 
 
+### Install Pro Micro Socket
+
+Now, let's install our Pro Micro sockets.
+
+Our low profile peel-a-way sockets have 24 spots. First we need to cut them down into 2 strips of 12.
+
+<img src="./static/build_guide/socket_full.jpg" width="768px" />
+
+<img src="./static/build_guide/socket_cut.jpg" width="768px" />
+
+Once our sockets are cut, insert the pins into the appropriate holes on the backside of the board.
+
+<img src="./static/build_guide/socket_inserted.jpg" width="768px" />
+
+Flip your PCB back around, making sure the sockets stay in their holes.
+
+<img src="./static/build_guide/socket_pins.jpg" width="768px" />
+
+Solder the pins to the board
+
+<img src="./static/build_guide/socket_pins_soldered.jpg" width="768px" />.
+
+Now our sockets are installed.
+
 ### Tactile Reset Switch (Optional)
 Now that we've had lots of practice soldering, we'll move on to some Surface Mount (SMD) parts. We'll start with the easiest - the tactile switch.
 
@@ -169,7 +193,7 @@ Solder the remaining leads to their pads:
 
 ### ESD Protection Diode (Optional)
 
-The last SMD component we're going to install is the ESD protection diode, following the same process. This also has a dot on both the PCB and component for alignment.
+The last SMD component we're going to install is the ESD protection diode, following the same process. It's much smaller than the other SMD components - so if you're uncomfortable doing this, feel free to skip it.  This also has a dot on both the PCB and component for alignment.
 
 <img src="./static/build_guide/dot_esd.jpg" width="768px" />
 <img src="./static/build_guide/esd_dot.jpg" width="768px" />
@@ -220,13 +244,9 @@ If using PCB mount stabilizers, install them in your PCB. Slide the larger part 
 
 <img src="./static/build_guide/pcb_stabs_installed.jpg" width="768px" />
 
-If you're using plate stabilizers, install them into your plate.
+If you're using a plate, I recommend using the plate stabilizers. Install them into your plate. PCB stabilizers will work, but it's a tight fit, and others have had them get stuck - you may have to do some light sanding of the plate, where the PCB stabs rub the plate.
 
-### Pro Micro Socket
-
-Now, let's install our Pro Micro sockets.
-
-(TODO: Add pics/details)
+<img src="./static/build_guide/plate_stabs.jpg" width="768px" />
 
 ### Switches
 
@@ -264,10 +284,9 @@ Once inserted, bend the legs and follow the same general technique that you did 
 
 <img src="./static/build_guide/leds_all_installed.jpg" width="768px" />
 
+### Test Flash Pro Micro
 
-### Testing / Pro Micro Flashing
-
-At this point, our whole key matrix has been completed. Now is a good time for a test.
+Before installing our Pro Micro, let's make sure it can be flashed and functions properly.
 
 <img src="./static/build_guide/pro_micro.jpg" width="768px" />
 
@@ -279,13 +298,51 @@ A compiled version of the Luddite firmware is available for download [here](http
 
 For more information, you can check out QMK's [flashing guide](https://beta.docs.qmk.fm/detailed-guides/flashing)
 
-Now, using the diode pins and sockets we installed, install your Pro Micro.
+### Pro Micro
+
+Now that we've tested our Pro Micro, let's install it.
+
+Since we are using low profile sockets, we need to make sure the switches won't touch the Pro Micro.
+You'll see that under the socket, the switch leads are sticking out.
+
+<img src="./static/build_guide/socket_flush_cut.jpg" width="768px" />.
+
+Using your flush cutters, cut all those leads short. Then add a layer of electrical tape to prevent any further issues.
+
+<img src="./static/build_guide/socket_tapes.jpg" width="768px" />.
+
+Now we're ready to add legs to our pro micro. We'll use the diode legs we saved from before.
+Align the pro micro with the sockets as shown, using the layout on the PCB as a guide
+
+Use a diode leg to go through one of the pro micro holes and into the sockets.
+
+<img src="./static/build_guide/socket_diode_leg.jpg" width="768px" />
+
+Make sure the diode leg is going cleanly into the socket.
+
+<img src="./static/build_guide/socket_leg_inserted.jpg" width="768px" />
+
+Repeat this process for all the sockets.
+
+<img src="./static/build_guide/socket_legs_in.jpg" width="768px" />
+
+Now, prior to soldering, make sure we have enough room for our USB Micro pigtail, by inserting the cable.
+
+<img src="./static/build_guide/socket_usb.jpg" width="768px" />
+
+Alternatively, we can remove some of the housing on the cable to get as low-profile as possible.
+
+<img src="./static/build_guide/cable_mod.jpg" width="768px" />
+
+Finally, solder all the legs to the pro Micro.
+
+### Testing
+
+Now, using the diode pins and sockets we installed, re-install your Pro Micro.
 
 <img src="./static/build_guide/pro_micro_installed.jpg" width="768px" />
 
 Once installed, connect your keyboard to a PC using a USB Micro cable. I like using http://www.keyboardtester.com/ to verify that all my keys work. If they don't, or multiple keys register on a single press, check all your diode orientations and fix them if wrong.
-
-When satisfied with testing, you can remove your Pro Micro from its socket.
 
 ### Pigtail
 
@@ -313,7 +370,10 @@ Place and solder each of the mini wires to the appropriate lead on the board. Re
 
 <img src="./static/build_guide/pigtail_setup.jpg" width="768px" />
 
+Some USB cables have metal sheathing around the wires. Make sure that those are not touching your PCB. Either remove the shielding, or wrap it in electrical tape.
 
+
+When you're done, the finished pigtail should look like this:
 <img src="./static/build_guide/pigtail_installed.jpg" width="768px" />
 
 
