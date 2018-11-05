@@ -220,10 +220,9 @@ If using PCB mount stabilizers, install them in your PCB. Slide the larger part 
 
 <img src="./static/build_guide/pcb_stabs_installed.jpg" width="768px" />
 
-If you're using plate stabilizers, install them into your plate.
+If you're using a plate, I recommend using the plate stabilizers. Install them into your plate. PCB stabilizers will work, but it's a tight fit, and others have had them get stuck - you may have to do some light sanding of the plate, where the PCB stabs rub the plate.
 
-
-
+<img src="./static/build_guide/palte_stabs.jpg" width="768px" />
 
 ### Switches
 
