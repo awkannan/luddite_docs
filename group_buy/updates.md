@@ -9,6 +9,11 @@ Update a day early - the PCBs and electronics, as well as the stabilizers have a
 
 I've spent 16-20 hours this past week just getting everything into kits and working on content for the GB. Splitting bulk components into kits has been an incredibly time consuming and tedious task. But luckily it's all done now! I've also updated the build guide. It should be in a good shape now.
 
+I also did a full build with the kits everyone will be receiving, and used the build guide to see if anything was missing. I added extra information where I thought necessary.
+
+<img src="../static/production_build.jpg" width="768px" />
+<img src="../static/production_build_back.jpg" width="768px" />
+
 We're just waiting on M2 hardware and Pro Micros now. Once those arrive, I'll have to kit those out, and then I can start shipping kits.
 
 If you don't need M2 hardware (i.e. you're planning on using a case), please contact me and I may be able to send out your kit early! You'd be foregoing any M2 hardware, and I can't really refund you for it either, but it is an option. I have a few Pro Micros from my personal stock which I wouldn't mind using on a first-come first-served basis, and I'll replenish any personal stock I use for these early kits with the Pro Micros that arrive with the group buy order. 
