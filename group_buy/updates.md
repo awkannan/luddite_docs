@@ -1,5 +1,13 @@
 # Updates for the Luddite Group Buy
 
+## November 12, 2018
+
+No new updates today in terms of kits shipping. M2 standoffs arrived, but we're still waiting on Pro Micros and M2 screws.
+
+CJT on the mechkeys discord received his kits early - he didn't need M2 hardware, and already had some Pro Micros. He tested case compatibility with the kbdfans 5 degree case. Basically, we found it would work on some versions. Looking at images of the 5 degree case, some will work, and some won't.
+
+Next update on the 19th! Hopefully parts will arrive before then - if they do, shipping kits will start ASAP and I'll post an early update here.
+
 ## November 4, 2018
 Update a day early - the PCBs and electronics, as well as the stabilizers have all arrived!
 
