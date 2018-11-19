@@ -1,5 +1,11 @@
 # Updates for the Luddite Group Buy
 
+## November 19, 2018
+
+The M2 Hardware arrived! I spent some time kitting it all out this weekend, so as soon as the Pro Micros arrive, I can make complete kits and ship them.
+
+I tried a Luddite in a low profile aluminum case. Unfortunately, it's too tall to fit, even with all the mods I did to make it as short as possible. This is sad and unfortunate, but at least some cases do work!
+
 ## November 12, 2018
 
 No new updates today in terms of kits shipping. M2 standoffs arrived, but we're still waiting on Pro Micros and M2 screws.
