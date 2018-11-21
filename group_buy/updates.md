@@ -1,5 +1,9 @@
 # Updates for the Luddite Group Buy
 
+## November 21, 2018
+
+Still no updates on the Pro Micros yet. But, I tried the Luddite in a Tofu case and it fit! So Tofu case compatibility is confirmed.
+
 ## November 19, 2018
 
 The M2 Hardware arrived! I spent some time kitting it all out this weekend, so as soon as the Pro Micros arrive, I can make complete kits and ship them.
