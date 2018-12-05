@@ -3,7 +3,7 @@
 ## December 4th, 2018
 Still no Pro Micros. There are 18 days left for them to arrive. Unfortunately - that would be on the 22nd, which wouldn't be nearly enough time to get all the kits shipped by Christmas (which has been my personal goal).
 
-If the Pro Micros don't arrive this week, I'm going to buy them again - this will cost a decent chunk of money, but it will definitely expedite the process. If the other Pro Micros don't arrive, I'll get that money back, but if they do, then I'll likely have to resell them on r/mechmarket. 
+If the Pro Micros don't arrive this week, I'm going to buy them again, and use express shipping - this will cost a decent chunk of money, but it will definitely expedite the process. If the other Pro Micros don't arrive, I'll get that money back, but if they do, then I'll likely have to resell them on r/mechmarket. 
 
 ## November 21, 2018
 
