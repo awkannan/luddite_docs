@@ -1,5 +1,11 @@
 # Updates for the Luddite Group Buy
 
+## December 10th, 2018
+
+I contacted the seller about the Pro Micros - he shipped them, but he has the same visibility into status as we do, so he couldn't provide any further updates. As such, I decided to purchase more and also pay for rush shipping. I'm happy to say that they will arrive tomorrow! 
+
+Assuming the tracking is accurate, this means that you can expect kits to be shipped this weekend. I'll keep you all updated. If the other ones do arrive, the plan remains to resell them on r/mm.
+
 ## December 4th, 2018
 Still no Pro Micros. There are 18 days left for them to arrive. Unfortunately - that would be on the 22nd, which wouldn't be nearly enough time to get all the kits shipped by Christmas (which has been my personal goal).
 
