@@ -1,5 +1,9 @@
 # Updates for the Luddite Group Buy
 
+## December 16th, 2018
+
+All Luddite kits have shipped! (except for one - if it's yours, you already know). They should be arriving this upcoming week! Please email me if you have any questions or concerns, or encounter any problems with the kits.
+
 ## December 10th, 2018
 
 I contacted the seller about the Pro Micros - he shipped them, but he has the same visibility into status as we do, so he couldn't provide any further updates. As such, I decided to purchase more and also pay for rush shipping. I'm happy to say that they will arrive tomorrow! 
